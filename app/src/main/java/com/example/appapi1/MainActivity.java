@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         theCorrectAnsTextView = (TextView)findViewById(R.id.textView2);
         textviewcolour=(TextView)findViewById(R.id.textView);
+        //defining textviewcolour by getting id of desired textview from xml file
     }
 
     public void wrongAns(View view) {
@@ -25,5 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void changecolour(View view) {
         textviewcolour.setTextColor(Color.RED);
+//created method to change colour (not really but just used one)
     }
 }
