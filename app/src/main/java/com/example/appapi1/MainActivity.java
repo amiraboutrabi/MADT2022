@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         textviewcolour=(TextView)findViewById(R.id.textView);
         //defining textviewcolour by getting id of desired textview from xml file
     }
-
     public void wrongAns(View view) {
         theCorrectAnsTextView.setText("TextView text has changed!");
     }
